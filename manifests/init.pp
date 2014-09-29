@@ -1,7 +1,6 @@
 include stdlib
 
 class zookeeper (
-	$servers,
 	$downloadDir = '/zookeeper',
 	$zooVersion = '3.4.6',
 	$downloadUrl = 'http://mirror.ox.ac.uk/sites/rsync.apache.org/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz'
